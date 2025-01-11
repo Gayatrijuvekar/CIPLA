@@ -1,0 +1,1007 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main_body {
+  position: relative;
+}
+.navbar {
+  box-shadow: 1px 1px 5px rgb(197, 196, 196);
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  z-index: 5;
+  background-color: white;
+  position: fixed;
+}
+.nav_box1 {
+  width: 8vw;
+  display: flex;
+  justify-content: center;
+}
+.nav_box1 img {
+  width: 6vw;
+}
+.nav_box2 {
+  margin-left: 25vw;
+  font-size: 0.8em;
+  cursor: pointer;
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+.menu_content {
+  position: relative;
+}
+.drop_box {
+  display: none;
+}
+.menu_content:hover .drop_box {
+  display: block !important;
+  transition: 15s;
+}
+.menu_content ul {
+  color: rgb(59, 59, 59);
+  position: absolute;
+  padding-left: 0;
+  width: 15vw;
+  padding: 0 1vw;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 2vh;
+  border: 1px solid rgb(194, 194, 194);
+  background-color: white;
+  z-index: 2;
+}
+.menu_content ul li {
+  list-style: none;
+  padding: 3px 0;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+.drop_box ul li:last-child {
+  border-bottom: 1px solid white;
+}
+.drop_box {
+  position: relative;
+}
+.tri {
+  position: absolute;
+  top: 0.5vh;
+  right: 0;
+}
+
+.search_box {
+  margin-right: 4vw;
+  width: 8vw;
+  height: 3vh;
+  background-color: rgb(3 94 166);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(240, 228, 228);
+  font-size: 0.8em;
+}
+.nav_box3 {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+.menu_bar {
+  position: absolute;
+  display: none;
+}
+.blank {
+  width: 100%;
+  height: 9vh;
+}
+
+/* -------------------------------------------slider-------------------------- */
+.slide div img {
+  width: 100%;
+}
+/* ---------------------------------Our Purpose--------------- */
+.purpose_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 15vh;
+}
+.back_img {
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/purpose_1.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 80vh;
+  margin-top: 10vh;
+  width: 75vw;
+  z-index: 1;
+}
+.left_content {
+  width: 50%;
+  height: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 5vw;
+}
+.left_content h2 {
+  font-weight: bold;
+}
+.left_content p {
+  font-size: 1.1em;
+}
+.read_more span {
+  text-decoration-line: underline;
+  padding-bottom: 2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.read_more {
+  background-color: white;
+  color: black;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.read_more i {
+  color: #f9ad42;
+}
+.read_more:hover,
+.read_more span:hover,
+.read_more i:hover {
+  background-color: #f9ad42;
+  color: white;
+  text-decoration: none;
+}
+.blue_purpose_box {
+  cursor: pointer;
+  width: 65vw;
+  height: 22vh;
+  background-color: #329ed8;
+  z-index: 2;
+  position: absolute;
+  bottom: -11vh;
+  color: rgb(3 94 166);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgb(78, 78, 78);
+}
+.blue_box {
+  width: 13vw;
+  height: 22vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 2vw;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding-top: 2vh;
+}
+.blue_box img {
+  width: 3vw;
+}
+.blue_box:first-child {
+  color: white;
+  background-color: rgb(3 94 166);
+  padding-top: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.white_line {
+  width: 100%;
+  height: 4px;
+  display: flex;
+}
+.white_line1 {
+  width: 50%;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+  margin-right: 3px;
+}
+.white_line2 {
+  width: 20%;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+}
+/* ---------------------------------------Latest at cipla---------------------------- */
+.stories {
+  width: 100%;
+  background-color: rgb(242 242 242);
+}
+.head_line {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.head_line h1 {
+  padding-bottom: 3px;
+  font-weight: 600;
+  border-bottom: 4px solid #f9ad42;
+  color: rgb(3 94 166);
+}
+.story_box {
+  width: 75vw;
+  margin: auto;
+  display: grid;
+  position: relative;
+}
+.story_box1 {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.story_box2 {
+  width: 32%;
+  height: 60vh;
+  position: absolute;
+  right: 33.5%;
+  top: 1%;
+}
+.story_box3 {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.story_box1,
+.story_box3 {
+  display: flex;
+}
+.story_box1 div,
+.story_box3 div {
+  width: 33.33%;
+}
+.news {
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding-left: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+.news p:last-child {
+  color: #f9ad42;
+}
+.news:hover {
+  cursor: pointer;
+  background-color: rgba(3, 94, 166, 0.6);
+  border-radius: 5px;
+}
+.news_img1_1,
+.news_img1_2,
+.news_img3_1,
+.news_img3_2 {
+  width: 48%;
+  height: 96%;
+  background-size: 100% 100%;
+  border-radius: 5px;
+}
+.news_img2_1 {
+  width: 98%;
+  height: 98%;
+  background-size: 100% 100%;
+  border-radius: 5px;
+}
+.news_img1_1 {
+  background-image: url("https://www.cipla.com/sites/default/files/2023-06/umang-vohra.webp");
+}
+.news_img1_2 {
+  background-image: url("https://www.cipla.com/sites/default/files/2023-06/preventive-medtech.png");
+}
+.news_img3_1 {
+  background-image: url("https://www.cipla.com/sites/default/files/2023-04/cipla-baddi-video.webp");
+}
+.news_img3_2 {
+  background-image: url("https://www.cipla.com/sites/default/files/2023-06/tuffies.png");
+}
+.news_img2_1 {
+  background-image: url("https://www.cipla.com/sites/default/files/2023-05/people-matters.webp");
+}
+.story_button {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.green_more_stories {
+  width: 200px;
+  height: 6vh;
+  cursor: pointer;
+}
+.green_more_stories p {
+  display: flex;
+  width: 180px;
+  height: 6vh;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 25px;
+  color: #00ad8a;
+}
+.green_more_stories p i {
+  padding-left: 4px;
+  padding-top: 2px;
+}
+.green_more_stories p:hover {
+  background-color: #00ad8a;
+  color: white;
+}
+.green_more_stories p i:hover {
+  color: white;
+}
+/* -----------------------------------------Footer------------------------ */
+.white {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+}
+footer {
+  background-color: rgb(0 83 146);
+}
+.foot_upper_content {
+  width: 80%;
+  margin: 0 10%;
+  height: 125vh;
+  background-color: rgb(0 83 146);
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foot_info {
+  display: flex;
+  width: 80vw;
+  padding-top: 10vh;
+}
+.footer_loc ul {
+  width: 16vw;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.footer_loc ul li {
+  list-style: none;
+  padding: 2px 0;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.footer_loc ul li:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer_loc ul li:first-child {
+  font-size: 1.2em;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  font-weight: 500;
+}
+.media {
+  display: flex;
+  width: 80vw;
+  height: 5vh;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8em;
+  padding-left: 2vw;
+  cursor: pointer;
+  margin-top: 5vh;
+}
+.media_icon {
+  width: 50vw;
+}
+.media_icon i {
+  padding: 0 10px;
+}
+.foot_lower_content {
+  display: none;
+}
+/* --------------------------------------------Portfolio---------------------- */
+.protfolio {
+  height: 175vh;
+  width: 100%;
+}
+.prot_text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  color: rgb(0 83 146);
+}
+.yellow_underline {
+  width: 240px;
+  height: 4px;
+  background-color: #f9ad42;
+}
+.protfolio_container {
+  width: 75vw;
+  height: 150vh;
+  margin: auto;
+  position: relative;
+}
+.upper_portfolio {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upper1 {
+  width: 32%;
+  height: 38vh;
+  border-radius: 8px;
+  background-color: white;
+}
+.por_box1_1 {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1em;
+  color: grey;
+  padding-left: 1vw;
+}
+
+.blue_line {
+  display: flex;
+  margin: 1vh 0 3vh;
+}
+.b_l1 {
+  width: 8vw;
+  height: 4px;
+  background-color: rgb(0 83 146);
+  border-radius: 2px;
+}
+.b_l2 {
+  margin-left: 1vw;
+  width: 1vw;
+  height: 4px;
+  background-color: rgb(0 83 146);
+  border-radius: 2px;
+}
+
+.upper2 {
+  border-radius: 8px;
+  position: absolute;
+  width: 33%;
+  height: 70vh;
+  background-color: yellow;
+  left: 33.5%;
+  top: 1vh;
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/breathe-girl-image.webp");
+  background-size: 100% 100%;
+}
+.sub {
+  cursor: pointer;
+  background-color: rgb(0, 83, 146, 0.6);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+.sub:hover {
+  color: #f9ad42;
+}
+.upper3 {
+  border-radius: 8px;
+  width: 32%;
+  height: 38vh;
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/api.webp");
+}
+.middle_portfolio {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2vh;
+}
+.middle1,
+.middle3 {
+  background-size: 100% 100%;
+  width: 31%;
+  height: 68vh;
+}
+.middle1 {
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/hiv.webp");
+}
+.middle3 {
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/oncology.webp");
+}
+.middle2 {
+  background-size: 100% 100%;
+  margin-top: 32vh;
+  border-radius: 8px;
+  width: 33%;
+  height: 36vh;
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/cipla-generic.webp");
+}
+.lower_portfolio {
+  width: 100%;
+  height: 46vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lower1,
+.lower2,
+.lower3 {
+  width: 31%;
+  height: 40vh;
+  background-size: 100% 100%;
+  border-radius: 8px;
+}
+.lower1 {
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/otc-cipla-health.webp");
+}
+.lower2 {
+  width: 33%;
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/cipla-diagnostics.webp");
+}
+.lower3 {
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/other-therapy-updated.webp");
+}
+/* -------------------------------------------my cipla my pride----------------------------- */
+.my_pride {
+  width: 100%;
+  height: 185vh;
+  background-color: #f2f2f2;
+}
+.people {
+  width: 80%;
+  height: 60vh;
+  margin: auto;
+  position: relative;
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/winning-at-cipla.webp");
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.win_at_cipla {
+  width: 100%;
+  position: absolute;
+  height: 18vh;
+  background-color: white;
+  bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  color: rgb(0 83 146);
+  display: none;
+}
+.people:hover .win_at_cipla,
+.left_cele:hover .win_at_cipla,
+.right_cele:hover .win_at_cipla {
+  display: block !important;
+}
+.win_at_cipla h3 {
+  margin: 1% 0;
+}
+.line {
+  display: flex;
+  margin-bottom: 1%;
+}
+.y_l1 {
+  width: 100px;
+  height: 5px;
+  background-color: #f9ad42;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+.y_l2 {
+  border-radius: 2px;
+  width: 10px;
+  height: 5px;
+  background-color: #f9ad42;
+}
+.people_cele {
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+.left_cele {
+  background-size: 100% 100%;
+  position: relative;
+  border-radius: 8px;
+  width: 59%;
+  height: 90vh;
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/allyship-in-action.webp");
+}
+
+.right_cele {
+  position: relative;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  width: 39%;
+  height: 90vh;
+  background-image: url("https://www.cipla.com/sites/default/files/2022-11/women-in-science.webp");
+}
+/* --------------------------------------------Investor Cipla---------------------------- */
+.investor {
+  width: 100%;
+  height: 100vh;
+}
+.investor_center {
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.invest_box1,
+.invest_box2,
+.invest_box3 {
+  width: 31%;
+  height: 78vh;
+}
+.invest_box1 img {
+  width: 100%;
+  height: 50vh;
+  cursor: pointer;
+}
+.graph_text {
+  padding: 2vh 1vw;
+}
+.g_text {
+  display: flex;
+  justify-content: center;
+}
+.invest_box3 {
+  background-color: #f1f1f1;
+}
+.invest_box3 img {
+  width: 100%;
+  height: 70vh;
+}
+.report {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9vh;
+  padding: 0 1vw;
+}
+.view_all {
+  cursor: pointer;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: #42b291;
+}
+.view_all:hover {
+  background-color: #00ad8a;
+  color: white;
+}
+.grey {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.invest_box2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.releases_box1 {
+  width: 100%;
+  height: 9vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 1vw;
+  box-shadow: 4px 4px 8px rgb(198, 198, 198);
+}
+.releases_box2 {
+  padding-left: 1vw;
+  width: 100%;
+  height: 40vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 4px 4px 8px rgb(198, 198, 198);
+}
+.green_text:hover,
+.press:hover {
+  color: #22467c;
+}
+.green_text {
+  color: #00ad8a;
+  font-size: 1.4em;
+  font-weight: 700;
+  cursor: pointer;
+}
+.press_content {
+  width: 95%;
+  height: 32vh;
+  display: flex;
+  flex-direction: column;
+}
+.press {
+  cursor: pointer;
+  width: 100%;
+  height: 8vh;
+  border-bottom: 1px solid #f9ad42;
+  display: flex;
+  align-items: center;
+}
+.press span {
+  padding-left: 1vw;
+}
+.press:last-child {
+  border-bottom: 1px solid white;
+}
+/* --------------------------------------ARE YOU DRIVEN BY A PURPOSE----------------- */
+.driven_box {
+  width: 100%;
+  height: 105vh;
+  background-color: #f2f2f2;
+}
+.driven {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+}
+.back_driven {
+  margin-left: 27%;
+  width: 60vw;
+  height: 75vh;
+  background-size: 100% 100%;
+
+  background-image: url("https://www.cipla.com/themes/cipla/images/driven-by-purpose.webp");
+}
+.front_driven {
+  position: absolute;
+  background-color: #035ea6;
+  width: 30vw;
+  height: 55vh;
+  left: 13%;
+  border-radius: 10px;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.front_driven img {
+  width: 60px;
+}
+
+.dri_button {
+  padding: 0 1vw;
+  width: 18vw;
+  height: 6vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  color: #035ea6;
+}
+.dri_button:hover {
+  background-color: #337ab7;
+  color: white;
+}
+/* ------------------------------------------------------STANDING STRONG. CARING FOR LIFE.------------------------------ */
+.stand_strong {
+  width: 100%;
+  height: 105vh;
+}
+.strong_p {
+  width: 80%;
+  margin: auto;
+  height: 8vh;
+  color: grey;
+  font-weight: bold;
+}
+.hospital_box {
+  height: 75vh;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: end;
+}
+.hos_back {
+  width: 75%;
+  height: 70vh;
+  border-radius: 8px;
+  background-size: 100% 100%;
+  background-image: url("https://www.cipla.com/sites/default/files/2023-07/health-image.webp");
+}
+.hos_front {
+  position: absolute;
+  width: 28%;
+  height: 60vh;
+  background-color: grey;
+  right: 0;
+  bottom: 5vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px rgb(185, 184, 184);
+}
+.med_tools img {
+  width: 50px;
+  padding-left: 1vw;
+}
+.med_tools span {
+  padding-left: 2vw;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.med_tools {
+  background-color: #035ea6;
+  height: 12vh;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #329ed8;
+  color: white;
+  cursor: pointer;
+}
+.med_tools:first-child {
+  color: #035ea6;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.med_tools:last-child {
+  border-bottom: 1px solid none;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.hos_back {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px 10px;
+  height: 100%;
+  justify-content: space-between;
+}
+.hos_back img {
+  width: 150px;
+}
+.more_read {
+  color: #f9ad42;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+.more_read:hover {
+  color: white;
+  background-color: #f9ad42;
+}
+.social {
+  height: 7vh;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.s_icon {
+  margin: 0 1%;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(155, 155, 155);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.connection {
+  width: 100%;
+  height: 110vh;
+  background-color: #f2f2f2;
+}
+.linkedin_container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+.main_linkedin {
+  position: relative;
+  margin: auto;
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.link_container1,
+.link_container2,
+.link_container3 {
+  position: absolute;
+  width: 20vw;
+  height: 70vh;
+  display: flex;
+  overflow: hidden;
+  display: flex;
+}
+.link_container1 {
+  top: 0;
+  left: 0;
+}
+.link_container3 {
+  top: 0;
+  right: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  animation: slide 1.5s infinite;
+}
+
+@keyframes slide {
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+.wrapper {
+  width: 100%;
+}
+.wrapper img {
+  padding: 0;
+  border-radius: 8px;
+  width: 30vw;
+}
